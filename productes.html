@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productes - Roba FIL</title>
+    <link rel="stylesheet" href="global.css">
+    <style>
+        .filtres {
+            background-color: #dcebdd;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        .filtres a {
+            display: inline-block;
+            margin: 5px 15px 5px 0;
+            color: #245c3b;
+        }
+
+        /* Targetes amb Flex que salten de línia */
+        .productes {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .producte {
+            flex: 1 1 260px;
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #ccc;
+            scroll-margin-top: 90px;
+        }
+
+        .imatge {
+            background-color: #ddd;
+            height: 160px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Inici</a>
+        <a href="productes.html">Productes</a>
+        <a href="contacte.html">Contacte</a>
+    </nav>
+
+    <main>
+        <h1>Els nostres productes</h1>
+        <p>Roba i complements de la nostra botiga.</p>
+
+        <div class="filtres">
+            <strong>Categories:</strong>
+            <a href="#samarreta">Samarretes</a>
+            <a href="#dessuadora">Dessuadores</a>
+            <a href="#bossa">Complements</a>
+        </div>
+
+        <section class="productes">
+            <article class="producte" id="samarreta">
+                <div class="imatge" role="img" aria-label="Imatge fictícia d'una samarreta">Samarreta</div>
+                <h2>Samarreta blanca</h2>
+                <p>Preu: 15 €</p>
+            </article>
+            <article class="producte" id="dessuadora">
+                <div class="imatge" role="img" aria-label="Imatge fictícia d'una dessuadora">Dessuadora</div>
+                <h2>Dessuadora verda</h2>
+                <p>Preu: 30 €</p>
+            </article>
+            <article class="producte" id="bossa">
+                <div class="imatge" role="img" aria-label="Imatge fictícia d'una bossa">Bossa</div>
+                <h2>Bossa de tela</h2>
+                <p>Preu: 10 €</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Roba FIL · hola@fil.example · 2026</p>
+        <p>Botiga fictícia per a un exercici de classe.</p>
+    </footer>
+</body>
+</html>
+
