@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inici - Roba FIL</title>
+    <link rel="stylesheet" href="global.css">
+    <style>
+        .hero {
+            background-color: #dcebdd;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .coleccions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .carta {
+            flex: 1 1 260px;
+            background-color: white;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+
+        .carta span {
+            background-color: #dcebdd;
+            padding: 5px;
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+
+        /* Banda de beneficis amb Flex */
+        .beneficis {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 15px;
+            background-color: #dcebdd;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Inici</a>
+        <a href="productes.html">Productes</a>
+        <a href="contacte.html">Contacte</a>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <h1>Benvinguts a Roba FIL</h1>
+            <p>Roba còmoda i senzilla per a cada dia.</p>
+            <form action="productes.html">
+                <button type="submit">Veure productes</button>
+            </form>
+        </section>
+
+        <h2>Les nostres col·leccions</h2>
+        <section class="coleccions">
+            <article class="carta">
+                <h3>Samarretes</h3>
+                <p>Samarretes de diferents colors per anar còmode.</p>
+                <span>Bàsics</span>
+                <span>Estiu</span>
+            </article>
+            <article class="carta">
+                <h3>Dessuadores</h3>
+                <p>Dessuadores per als dies que fa més fred.</p>
+                <span>Hivern</span>
+                <span>Comoditat</span>
+            </article>
+            <article class="carta">
+                <h3>Complements</h3>
+                <p>Bosses pràctiques per portar les teves coses.</p>
+                <span>Bosses</span>
+                <span>Accessoris</span>
+            </article>
+        </section>
+
+        <div class="beneficis">
+            <span>Enviament 48 h</span>
+            <span>Canvis gratuïts</span>
+            <span>Pagament segur</span>
+        </div>
+    </main>
+
+    <footer>
+        <p>Roba FIL · hola@fil.example · 2026</p>
+        <p>Botiga fictícia per a un exercici de classe.</p>
+    </footer>
+</body>
+</html>
+
