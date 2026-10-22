@@ -1,0 +1,63 @@
+/* Estils comuns de les tres pàgines */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #222;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Menú fix a la part superior */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #245c3b;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Contenidor centrat */
+main {
+    max-width: 1100px;
+    margin: 90px auto 30px;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #245c3b;
+}
+
+button {
+    background-color: #245c3b;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #183e28;
+}
+
+footer {
+    background-color: #245c3b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
