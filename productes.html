@@ -34,11 +34,10 @@
         }
 
         .imatge {
+            width: 100%;
             background-color: #ddd;
-            height: 160px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            height: 220px;
+            object-fit: contain;
         }
     </style>
 </head>
@@ -62,21 +61,26 @@
 
         <section class="productes">
             <article class="producte" id="samarreta">
-                <div class="imatge" role="img" aria-label="Imatge fictícia d'una samarreta">Samarreta</div>
+                <img class="imatge" src="https://images.unsplash.com/photo-1581655353564-df123a1eb820?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Samarreta blanca penjada en un penjador">
                 <h2>Samarreta blanca</h2>
                 <p>Preu: 15 €</p>
             </article>
             <article class="producte" id="dessuadora">
-                <div class="imatge" role="img" aria-label="Imatge fictícia d'una dessuadora">Dessuadora</div>
+                <img class="imatge" src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/444967/item/goods_58_444967.jpg" alt="Dessuadora verda amb caputxa">
                 <h2>Dessuadora verda</h2>
                 <p>Preu: 30 €</p>
             </article>
             <article class="producte" id="bossa">
-                <div class="imatge" role="img" aria-label="Imatge fictícia d'una bossa">Bossa</div>
+                <img class="imatge" src="https://www.forestbound.com/cdn/shop/files/CANVASTOTE-NOTEXT_161_1024x.jpg?v=1750190955" alt="Bossa de tela de color natural amb nanses marrons">
                 <h2>Bossa de tela</h2>
                 <p>Preu: 10 €</p>
             </article>
         </section>
+        <p>Fotos de mostra:
+            <a href="https://unsplash.com/photos/white-crew-neck-t-shirt-acn5ERAeSb4">Unsplash</a>,
+            <a href="https://www.uniqlo.com/jp/ja/products/E444967-000/01">Uniqlo</a> i
+            <a href="https://www.forestbound.com/products/canvas-transport-tote">Forestbound</a>.
+        </p>
     </main>
 
     <footer>
